@@ -1,0 +1,45 @@
+.add-os-project-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-os-project-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-os-project-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-os-project-container label {
+    margin-bottom: 5px;
+  }
+  
+  .add-os-project-container input[type="text"],
+  .add-os-project-container input[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    max-width: calc(100% - 16px); /* Adjusted max-width */
+  }
+  
+  .add-os-project-container button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .add-os-project-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

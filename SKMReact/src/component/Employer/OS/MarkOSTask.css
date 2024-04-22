@@ -1,0 +1,46 @@
+.mark-os-task-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .mark-os-task-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mark-os-task-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mark-os-task-container label {
+    margin-bottom: 5px;
+  }
+  
+  .mark-os-task-container input[type="text"],
+.mark-os-task-container input[type="number"] {
+  width: calc(100% - 16px); /* Adjusted width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+  
+  .mark-os-task-container button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .mark-os-task-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

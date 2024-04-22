@@ -1,0 +1,66 @@
+/* Employer.css */
+
+.employer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    color: #333; /* Dark gray text */
+  }
+  
+  .navbar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .main-content {
+    text-align: center;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; /* Dark gray footer text */
+  }
+  
+  .seperator{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

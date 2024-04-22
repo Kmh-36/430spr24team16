@@ -1,0 +1,67 @@
+body {
+  background-color: #e9ebf0; /* Light gray background */
+  font-family: Helvetica, Arial; /* Font stack */
+}
+
+.wrapper {
+  margin-top: 50px;
+  background-color: #fff; /* White background */
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.wrapper p {
+  font-style: italic;
+  color: #666; /* Dark gray text */
+}
+
+.wrapper label {
+  display: block;
+}
+
+.wrapper input {
+  padding: 3px 6px;
+}
+
+.amount-input {
+  margin-bottom: 10px;
+}
+
+.wrapper select {
+  display: block;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.wrapper hr {
+  margin: 40px auto;
+}
+
+@media only screen and (min-width: 1400px) {
+  .wrapper {
+    width: 50%; /* Width for large screens */
+  }
+  .wrapper input {
+    width: 600px; /* Width for large screens */
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+  .wrapper {
+    width: 75%; /* Width for medium screens */
+  }
+  .wrapper input {
+    width: 400px; /* Width for medium screens */
+  }
+}
+
+/* Additional styles for the App component */
+.App {
+  margin-bottom: 50px; /* Margin bottom for the entire app */
+}
